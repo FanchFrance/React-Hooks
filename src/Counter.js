@@ -6,6 +6,7 @@ function Counter() {
   const [count, setCount] = useState(0);
 
 const handleChangeNumber = (event) =>{
+  console.log("Number")
  setCount(Number(event.target.value))
 }
   return (
